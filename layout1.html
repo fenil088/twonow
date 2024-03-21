@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            background-color:rgb(40, 38, 38);
+            padding: 5px;
+            justify-content: space-around;
+            width: 100%;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        li{
+            margin: 5px;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+        }
+        li a:hover {
+            transition: all 1s ;
+            color: white;
+        }
+        h3{
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 20px 10px 10px rgb(36, 37, 37);
+            
+        }
+        #home{
+            width: 100%;
+            display: flex;
+            background-color:gray;  
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;  
+        }
+        #home h3{
+            margin: 50px;
+            padding: 30px;
+            right: 500px;
+           
+        }
+        #home pre{
+                    margin: 9px 20px;
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button{
+            padding: 10px; 
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+        }
+        button:hover{
+              background-color:rgb(40, 38, 38);
+              cursor: pointer;
+            
+        }
+        #about{
+        display: flex;
+        background-color: gray;    
+        }
+        h5{
+            background-color:rgb(27, 27, 27);
+            color: white;
+            font-size: 40px;
+            padding: 10px;
+            text-align: center;    
+        }
+        .about3{
+            display: flex;
+
+        }
+        #about p{
+            text-align: center;
+            box-shadow: 20px 10px 10px rgb(36, 37, 37);
+            padding: 10px;
+            font-size: 20px;
+        }
+        .c-1{
+            display: flex;
+            background-color: rgb(40, 38, 38);
+            height: 700px;
+        }
+        pre{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 20px;
+        }
+        .c-2{
+            margin: 20px 90px;
+        }
+        .c-3{
+            margin: 30px 100px;
+            background-color:gray;
+            height: 490px;
+        }
+        .c-2 P{
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            box-shadow: 20px 10px 10px rgb(4, 4, 4);
+        }
+        .c-2 pre{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 40px;
+            font-size: 20px;
+            padding: 10px   ;
+        }
+        .footer{
+            margin-top: 150px;
+            width: 100%;
+            padding: 100px 15%;
+            background-color: #333;
+            color:#efefef;
+            display: flex;
+        }
+        .footer div{
+            text-align: center;
+        }
+        .col-2{
+            flex-grow: 2;
+        }
+        .col-3 .col-410{
+          display: flex;
+        }
+        .footer div h3{
+            font-weight: 300;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        .col-1 a{
+            display: block;
+            text-decoration: none;
+            color: #efefef;
+            margin-bottom: 10px;
+        }
+        form input{
+            width: 400px;
+            height: 45px;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            outline: none;
+            border: none;
+        }
+        form button{
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 30px;
+            padding: 10px 30px;
+            font-size: 15px;
+            cursor: pointer ;
+        }
+        .col-4{
+            margin-top: 30px;
+        }
+        .col-4 i{
+           
+            margin: 10px;
+            cursor: pointer;
+        }
+        #Gallery{
+                   background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href=""><img src="/image/fist big.jpg" alt="airpods" width="100px" height="80px"></a></li>
+            </ul>
+            <ul><li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+     <h5>home</h5>
+    <div id="home">
+        <div>
+             <a href="/image/1600w-k4EiS0uPqD0.webp"><img src="/image/1600w-k4EiS0uPqD0.webp" alt="AirPods Max" width="500PX" height="500px" style="margin: 20px; margin-left: 70px;"></a>
+        </div>
+          <div style="margin-left: 100px;">
+            <h3>AirPods Max</h3>
+            <pre>
+                Introducing AirPods Max 
+                a perfect balance of exhilarating high-fidelity audio 
+                and the effortless magic of AirPods.
+    
+                The ultimate personal listening experience is here.
+                high-fidelity audio
+
+                 <button>more</button>
+
+         </div>  
+      </div>
+
+
+      <h5>about</h5>
+      <div id="about">
+        <div class="about1">
+              <a href=""><img src="/image/fist big.jpg" alt="AirPods max" height="700px" width="700px" style="margin-top: 90px; margin-left: 80px;"></a>
+        </div>
+        <div class="about3" style="margin: 90px 300px; ">
+              <div class="about2" style="margin-right: 90px;">
+                <a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="AirPods max" height="300px" width="300px"></a>
+                <p>AirPods max</p>
+                <a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="AirPods max" height="300px" width="300px" style="margin-top: 50px;"></a>
+                <p>AirPods max</p> 
+              </div>
+              <div class="about4" >
+                <a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="AirPods max" height="300px" width="300px"></a>
+                <p>AirPods max</p>
+                <a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="AirPods max" height="300px" width="300px" style="margin-top: 50px;"></a>
+                <p>AirPods max</p>
+              </div>
+        </div>
+      </div>
+
+
+      <div class="c-1">
+        <div class="c-2">
+                        <p>Computational audio. Key to performance.</p>
+                        <pre>
+                           
+                            With a powerful Apple‑designed H1 chip in each cup,
+                             our custom acoustic design and advanced software, 
+
+                            AirPods Max use computational audio to create 
+                            a breakthrough listening experience.
+
+                            By tapping into each chip’s 10 audio cores, 
+                            computational audio helps block outside noise,
+
+                            adapts audio to the fit and seal of your ear cushions, 
+                            and makes movie scenes sound like they’re happening all around you.
+                           
+                            <button>more</button>
+
+                        </pre>
+
+        </div>
+        <div class="c-3">
+              <a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="AirPods max" height="600px" width="600px"></a>
+        </div>
+      </div>
+
+      <h5>Gallery</h5>
+      <div id="Gallery">
+          <div>
+              <img src="/image/fist big.jpg" alt="" width="33%" style="padding: 20px 100px;">
+              <img src="/image/fist big.jpg" alt="" width="33%" style="padding: 20px 100px;">
+              <img src="/image/fist big.jpg" alt="" width="33%" style="padding: 20px 110px;">
+          </div>
+      </div>
+
+       <h5 id="contact">contact</h5>
+      <div class="footer" style="margin-top: 0px;">
+        <div class="col-1">
+            <h4>About us</h4>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Contact">Contact</a>
+            
+        </div>
+        <div class="col-2">
+            <h4>email</h4>
+            <form>
+                <input type="email" placeholder="your email address" required>
+                <br>
+                <button type="submit">submit</button>
+            </form>
+        </div>
+        <div class="col-3">
+            <h4>CONTACT</h4>
+            <p>123, xyz rode, bsk 3 <br>bangalore, karnataka, INbr <br> +91 9099012935</p>
+            <div class="col-4">
+                  <i><a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="facebook"  width="22px" height="22px"></a></i>
+                  <i><a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="whatsapp" width="22px" height="22px"></a></i>
+                  <i><a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="instagram" width="22px" height="22px"></a></i>
+                  <i><a href="/image/fist big.jpg"><img src="/image/fist big.jpg" alt="twitter" width="22px" height="22px"></a></i>
+            </div> 
+        </div>
+       
+    </div>
+
+</body>
+</html>
